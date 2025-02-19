@@ -192,7 +192,7 @@ function drop()
 {
   cut_sound.play();
   rope.break();
-  fruit_con.dettach();
+  fruit_con.detach();
   fruit_con = null; 
 }
 
@@ -200,7 +200,7 @@ function drop2()
 {
   cut_sound.play();
   rope2.break();
-  fruit_con_2.dettach();
+  fruit_con_2.detach();
   fruit_con_2 = null;
 }
 
